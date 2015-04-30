@@ -1,0 +1,6 @@
+
+//For CPU task job
+thorq --add --mode single --base-dir here raytracer /home/user143/openCL/project_c/raytrace_6400_3200.jpg 6400 3200
+
+//For GPU task job
+thorq --add --mode single --base-dir here --device gpu raytracer /home/user143/openCL/project_cl/raytrace_cl_6400_3200.jpg 6400 3200
